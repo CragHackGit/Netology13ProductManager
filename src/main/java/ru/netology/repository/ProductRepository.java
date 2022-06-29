@@ -1,7 +1,11 @@
+package ru.netology.repository;
+
+import ru.netology.domain.Product;
+
 public class ProductRepository {
     protected Product[] items = new Product[0];
 
-    public void add(Product item) {
+    public void save(Product item) {
         Product[] tmp  = new Product[items.length + 1];
         for (int i = 0; i < items.length; i++ ) {
             tmp[i] = items[i];
