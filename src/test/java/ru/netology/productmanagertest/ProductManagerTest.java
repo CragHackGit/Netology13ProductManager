@@ -45,7 +45,7 @@ public class ProductManagerTest {
         @Test
         void shouldManagerSearchBy() {
 
-            Product[] actual = manager.searchBy("Samsung");
+            Product[] actual = manager.searchBy("Korea");
             ;
             Product[] expected = {smartphone1, smartphone2};
 
